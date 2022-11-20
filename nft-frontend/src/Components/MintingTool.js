@@ -120,7 +120,7 @@ const MintingTool = (props) => {
             <input type="text" id="token_id_Input"
               name="token_id_Input"
               onChange={handleChangeA}
-              value={messageA || `${window.accountId}-gibson-guitar-token6`}
+              value={messageA}
               autoComplete="off"
               style={{ height: "2.5EM", "textalign": "center", "color": "black", "fontSize": "14px" }}>
             </input>
@@ -131,7 +131,7 @@ const MintingTool = (props) => {
               id="title_Input"
               name="title_Input"
               onChange={handleChangeB}
-              value={messageB || "Gibson Guitar"}
+              value={messageB}
               autoComplete="off"
               style={{ height: "2.5EM", "textalign": "center", "color": "black", "fontSize": "14px" }}>
             </input>
@@ -142,7 +142,7 @@ const MintingTool = (props) => {
               id="description_Input"
               name="description_Input"
               onChange={handleChangeC}
-              value={messageC || "This is a 1957 genuine Gibson guitar."}
+              value={messageC}
               autoComplete="off"
               style={{ height: "2.5EM", "textalign": "center", "color": "black", "fontSize": "14px" }}>
             </input>
@@ -153,7 +153,7 @@ const MintingTool = (props) => {
               id="media_Input"
               name="media_Input"
               onChange={handleChangeD}
-              value={messageD || "https://bafybeiftczwrtyr3k7a2k4vutd3amkwsmaqyhrdzlhvpt33dyjivufqusq.ipfs.dweb.link/goteam-gif.gif"}
+              value={messageD}
               autoComplete="off"
               style={{ height: "2.5EM", "textalign": "center", "color": "black", "fontSize": "14px" }}>
             </input>
