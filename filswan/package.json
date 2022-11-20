@@ -1,0 +1,26 @@
+{
+  "name": "filswan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fs_getfdExport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.0.24",
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.1.4",
+    "js-mcs-sdk": "^2.5.3",
+    "pad": "^3.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0"
+  },
+  "type":"module"
+}
