@@ -2,9 +2,9 @@
 INSTALL
 //////////////////////////////////////////
 
-git clone https://github.com/srblabotw69/Aboveio20221120
+git clone https://github.com/srblabotw69/Aboveiohack1
  
-cd Aboveio20221120
+cd Aboveiohack1
 yarn --cwd nft-frontend install
 yarn --cwd vc-server install
 yarn --cwd filswan install
